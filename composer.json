@@ -1,5 +1,5 @@
 {
-    "name": "beta/bx.rusal.openid",
+    "name": "beta/bx.geolite",
     "description": "GeoLite2 bitrix geolocation provider",
     "type": "bitrix-module",
     "license": "MIT",
