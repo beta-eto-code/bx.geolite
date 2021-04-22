@@ -1,0 +1,25 @@
+{
+    "name": "beta/bx.rusal.openid",
+    "description": "GeoLite2 bitrix geolocation provider",
+    "type": "bitrix-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexander Nesterov",
+            "email": "alex19pov31@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.2",
+        "ext-json": "*",
+        "beta/bitrix-geolocation": "dev-master",
+        "geoip2/geoip2": "~2.0"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@cvs.beta.agency:nesterov/bitrix-geolocation"
+        }
+    ]
+}
