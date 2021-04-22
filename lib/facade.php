@@ -14,6 +14,6 @@ class Facade
     {
         $lid = Application::getInstance()->getContext()->getLanguage();
         $dbPath = Option::get('bx.geolite', 'GEOLITE2DB_PATH', '');
-        return new GeoLite2DBLocationService($dbPath, $lid);
+        return new GeoLite2DBLocationService($_SERVER['DOCUMENT_ROOT'] . $dbPath, $lid);
     }
 }
