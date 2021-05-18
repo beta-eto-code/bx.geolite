@@ -4,15 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3c9c081d2af160ea39083a97a8547b46",
+    "content-hash": "639afe9201779979560341d62d7f3b34",
     "packages": [
         {
             "name": "beta/bitrix-geolocation",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "git@cvs.beta.agency:nesterov/bitrix-geolocation",
-                "reference": "c9e6dae8bc1baff981c17613219b1ccc362faf82"
+                "url": "https://github.com/beta-eto-code/bitrix-geolocation.git",
+                "reference": "c76e37aded4f4b58a0ba94152431587a5136002c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/beta-eto-code/bitrix-geolocation/zipball/c76e37aded4f4b58a0ba94152431587a5136002c",
+                "reference": "c76e37aded4f4b58a0ba94152431587a5136002c",
+                "shasum": ""
             },
             "require": {
                 "beta/bx.model": "dev-master",
@@ -36,7 +42,11 @@
                 }
             ],
             "description": "Bitrix geolocation",
-            "time": "2021-04-22T17:22:23+00:00"
+            "support": {
+                "source": "https://github.com/beta-eto-code/bitrix-geolocation/tree/0.1.1",
+                "issues": "https://github.com/beta-eto-code/bitrix-geolocation/issues"
+            },
+            "time": "2021-04-22T20:02:50+00:00"
         },
         {
             "name": "beta/bx.model",
@@ -44,12 +54,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/beta-eto-code/bx.model.git",
-                "reference": "b65330507ad6962dc459850ae173f13c9787adfb"
+                "reference": "ad814c2738ebb0a853fdf3145043fe1761ef8c88"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/beta-eto-code/bx.model/zipball/b65330507ad6962dc459850ae173f13c9787adfb",
-                "reference": "b65330507ad6962dc459850ae173f13c9787adfb",
+                "url": "https://api.github.com/repos/beta-eto-code/bx.model/zipball/ad814c2738ebb0a853fdf3145043fe1761ef8c88",
+                "reference": "ad814c2738ebb0a853fdf3145043fe1761ef8c88",
                 "shasum": ""
             },
             "default-branch": true,
@@ -68,7 +78,7 @@
                 "issues": "https://github.com/beta-eto-code/bx.model/issues",
                 "source": "https://github.com/beta-eto-code/bx.model/tree/master"
             },
-            "time": "2021-04-22T07:54:32+00:00"
+            "time": "2021-05-18T08:41:24+00:00"
         },
         {
             "name": "composer/ca-bundle",

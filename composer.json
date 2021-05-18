@@ -19,7 +19,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "git@cvs.beta.agency:nesterov/bitrix-geolocation"
+            "url": "git@github.com:beta-eto-code/bitrix-geolocation.git"
         }
     ]
 }
