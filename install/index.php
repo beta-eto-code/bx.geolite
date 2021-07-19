@@ -30,6 +30,11 @@ class bx_geolite extends CModule
 
     public function DoInstall()
     {
+        $result = $this->installRequiredModules();
+        if (!$result) {
+            return false;
+        }
+
         $this->InstallDB();
         $this->InstallEvents();
         $this->InstallFiles();
